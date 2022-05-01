@@ -8,13 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div style="display:fixed;width:100%;left:0;top:0;">
     <canvas id="canvas" width="1"></canvas>
-    </div>
     <script>
     let canvas = document.getElementById("canvas");
        canvas.width = document.documentElement.clientWidth
        canvas.height = document.documentElement.clientHeight
+        
     let ctx = canvas.getContext("2d");
     ctx.fillStyle = "black";
     ctx.strokeStyle = "black";
