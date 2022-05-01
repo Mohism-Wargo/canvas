@@ -5,3 +5,6 @@
     display: block;
     border: 5px solid rgb(164, 168, 173) ;
 }
+body {
+    overflow: hidden;
+}
